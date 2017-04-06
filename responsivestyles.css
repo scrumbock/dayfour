@@ -25,6 +25,7 @@ img.animated-gif{
   height: auto;
 }
 .text-box {
+	box-sizing: border-box;
 	width: 100%;
 	height: auto;
 	background: darkgrey;
@@ -46,11 +47,11 @@ img.animated-gif{
 }
 
 #client-one {
-	background-image: url("https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcR1w3Y69yDiAhXwKzDO0bYULWmbTIoknEciMSd9tgog5lR0kOscUbPwVbzn");
+	background-image: url("https://assets.awwwards.com/awards/images/2015/08/galactic-records-awwwards-logos.jpg");
 }
 
 #client-two {
-	background-image: url("http://www.newdesignfile.com/postpic/2011/04/marketing-logo-design-templates-free_264003.jpg");
+	background-image: url("http://www.stateofdigital.com/wp-content/uploads/2013/03/mediavision-new-2.jpg");
 }
 
 #client-three {
@@ -58,7 +59,7 @@ img.animated-gif{
 }
 
 #client-four {
-	background-image: url("https://www.cambioagency.com/images/logo-beckyhiggins.png");
+	background-image: url("https://s-media-cache-ak0.pinimg.com/564x/0e/fb/00/0efb002fcdfc47de8787eafeb6e56ace.jpg");
 }
 
 #client-five {
@@ -66,7 +67,7 @@ img.animated-gif{
 }
 
 #client-six {
-	background-image: url("https://s-media-cache-ak0.pinimg.com/564x/dd/b6/26/ddb626742139dbae609f78d23fdc4e1b.jpg");
+	background-image: url("http://brandchannel.com/wp-content/uploads/2015/07/campbells-logo-thumb.png");
 }
 
 /*tablet and small desktop stylings*/
@@ -87,12 +88,12 @@ img.animated-gif{
 	.text-box {
 		background: #2f3033;
 	}
-	#client-one, #client-three, #client-four, #client-five, #client-six {
+	#client-one, #client-two, #client-three, #client-four, #client-five, #client-six {
 		float: none;
 		margin: 0 auto;
 	}
-	#client-two {
-		display: none;
+	#client-three {
+		bottom-margin: 15px;
 	}
 	.nameplate ul {
 	float: none;
