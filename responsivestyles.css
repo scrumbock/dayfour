@@ -92,7 +92,7 @@ img.animated-gif{
 		float: none;
 		margin: 0 auto;
 	}
-	#client-three {
+	.top-row  {
 		bottom-margin: 15px;
 	}
 	.nameplate ul {
